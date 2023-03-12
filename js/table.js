@@ -15,14 +15,13 @@ let tableBody = document.querySelector("#personalTable tbody");
 
 personalData.forEach(data => {
   let row = document.createElement("tr");
-  row.innerHTML = `
-    <td>${data.id}</td>
+  row.innerHTML = `<td>${data.id}</td>
     <td><i class="${data.icon}"></i></td>
     <td>${data.description}</td>
     <td>${data.info}</td>
-    <td><img src="${data.image}" alt="${data.description}"></td>
-  `;
-  tableBody.appendChild(row);
+    <td><img src="${data.image}" alt="${data.description}"></td>`;
+  
+    tableBody.appendChild(row);
 });
 
 $(document).ready(function() {
