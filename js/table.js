@@ -1,7 +1,7 @@
 let personalData = [
 {id: 1, icon: "bi-airplane", description: "Likes to travel somewhere warm and sunny.", info: "Bali is my favorite destination", 
   image: "https://i.pinimg.com/236x/2c/98/b0/2c98b00f3fcd8cee0ecf14c904d42adc.jpg"},
-  {id: 2, icon: "bi-earbuds", description: "I don't play any instruments.", info: "Likes listening to Rock music", 
+  {id: 2, icon: "bi-earbuds", description: "I don't play any instruments.", info: "Likes listening to Pop", 
   image: "https://i.pinimg.com/236x/cf/e0/a8/cfe0a876c3a93d3a16f784df95229112.jpg"},
   {id: 3, icon: "bi-snow", description: "I'm more active during winter doing wintersports", info: "Skiing and skating are fun to do during winter", 
   image: "https://i.pinimg.com/236x/94/1e/66/941e6626002400ddb4e7dbb4d502382c.jpg"},
